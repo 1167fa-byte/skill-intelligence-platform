@@ -4,10 +4,14 @@
     <title>Project Video</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
-            background: black;
-            height: 100vh;
+            background: #000;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -16,7 +20,8 @@
         video {
             width: 95%;
             max-width: 1200px;
-            max-height: 95vh;
+            max-height: 90vh;
+            display: block;
         }
     </style>
 </head>
@@ -24,7 +29,7 @@
 <body>
 
     <video controls autoplay muted playsinline>
-        <source src="project-video.mp4" type="video/mp4">
+        <source src="Untitled%20design.mp4" type="video/mp4">
         Your browser does not support video playback.
     </video>
 
